@@ -11,7 +11,7 @@ register.addEventListener("click", function(){
     sessionStorage.setItem("user", user);
     sessionStorage.setItem("password", password);
 
-    alert("Usuário cadastrado com sucesso")
+    alert("Usuário cadastrado com sucesso");
 
     window.location.href = "../pages/login.html";
 })
